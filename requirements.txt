@@ -1,13 +1,50 @@
-spacy>=3.0.0
-pyenchant>=3.2.2
-contextualSpellCheck>=0.3.0
-textblob>=0.15.3
-transformers>=4.0.0
-torch>=1.7.0
-contractions>=0.1.0
-wordsegment>=1.3.1
-nltk>=3.6.0
-pandas>=1.0.0
-scikit-learn>=0.24.0
-joblib>=1.0.0
-beautifulsoup4>=4.9.0
+# Core Streamlit and Web Framework
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Machine Learning and Data Science
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Basic NLP and Text Processing
+nltk>=3.8.0
+textblob>=0.17.1
+regex>=2023.8.8
+
+# Utilities
+requests>=2.31.0
+urllib3>=1.26.0
+python-dotenv>=1.0.0
+
+# File Processing
+openpyxl>=3.1.0
+xlrd>=2.0.1
+
+# Data Visualization (optional)
+plotly>=5.15.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: Advanced NLP & Spell Checking
+# spacy>=3.6.0
+# pyenchant>=3.2.2
+# contextualSpellCheck>=0.4.4
+# contractions>=0.1.73
+# wordsegment>=1.3.1
+
+# Optional: Deep Learning (for BERT or LLM support)
+# torch>=2.0.0
+# transformers>=4.30.0
+
+# Optional: Additional Text Processing
+# python-Levenshtein>=0.21.0
+
+# Optional: Development and Testing
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# flake8>=6.0.0
+
+# Security
+cryptography>=41.0.0
