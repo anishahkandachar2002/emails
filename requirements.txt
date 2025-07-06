@@ -1,5 +1,5 @@
 spacy>=3.0.0
-enchant>=3.0.0
+pyenchant>=3.2.2
 contextualSpellCheck>=0.3.0
 textblob>=0.15.3
 transformers>=4.0.0
